@@ -1,0 +1,531 @@
+#bodyMain {
+    background-image: url(main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #efebe6;
+    background-position: right;
+    height: 100vh;
+}
+/* main page */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.menu {
+font-family: 'Special Elite';
+text-decoration: none;
+font-size: 30px;
+color: #24604B;
+}
+
+h1 {
+    margin: 200px 0 0 250px;
+    font-family: 'Metrophobic';
+    font-size: 60px;
+    color: #A72226;
+    
+}
+
+#spanMain {
+font-family: 'Special Elite';
+margin-left: 100px;
+font-size: 35px;
+color: #24604B;
+
+}
+
+/*About us*/
+
+#aboutus {
+    background-image: url(about.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color:#edebe7;
+}
+
+#headerAbout {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+h2 {
+font-family: 'Special Elite';
+font-size: 50px;
+color: #FF6136;
+}
+
+#divAbout {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 65%;
+}
+
+#spanAbout {
+    font-family: 'Special Elite';
+font-size: 20px;
+}
+
+#parAbout {
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 20px;
+}
+
+.homePage {
+    align-self: center;
+}
+
+#parHours {
+    font-family: 'Special Elite';
+font-size: 20px;
+}
+
+
+
+
+/*Menu*/
+
+#bodyMenu {
+    background-color: #dcd6cc;
+    margin: 0;
+    
+}
+
+#menu {
+    background-image: url(backMenu.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+.backPage {
+    align-self: center;
+    margin-top: 400px;
+}
+
+
+
+/*Contact us*/
+
+#contactus {
+    background-image: url(contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 100vh;
+    background-color: #efeae7;
+}
+
+
+/*form*/
+
+form {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Special Elite';
+    color: #160805;
+}
+
+.text-input {
+    margin: 30px 0px 30px 0px;
+    padding: 10px;
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    font-family: 'Metrophobic', sans-serif;
+    background: #749EB5;
+    color: #160805;
+    border: none;
+}
+
+#headingContact {
+    color: #160805;
+    font-family: 'Special Elite';
+    font-size: 30px;
+}
+
+.btn {
+    background: #FF6136;
+    width: 320px;
+padding: 10px;
+color: #160805;
+border: none;
+font-family: 'Special Elite';
+font-size: 30px;
+color: #160805;
+}
+
+#divAdress {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+#adress {
+    color: #160805;
+    font-family: 'Special Elite';
+    margin: 100px 20px 0 0;
+}
+
+.social {
+    margin: 100px 20px 0 0;
+}
+
+.one {
+    margin-right: 100px;
+}
+
+#freepic {
+    color: #24604B;
+    font-size: 10px;
+}
+
+@media all and (max-width: 2560px) {
+    /* main page */
+    
+    .menu {
+        margin-top: 200px;
+        font-size: 100px;
+    }
+    
+    h1 {
+        margin: 600px 0 0 450px;
+        font-size: 150px;
+    }
+    
+    #spanMain {
+        font-size: 80px;
+        margin-left: 65px;
+    }
+
+    /*About us*/
+
+    #headerAbout {
+        margin-top: 250px;
+    }
+    
+    #parAbout {
+        font-size: 50px;
+    }
+    
+    #spanAbout {
+        font-size: 50px;
+    }
+
+    #divAbout {
+        width: 60%;
+    }
+    
+    #parHours {
+        font-size: 50px;
+    }
+
+   /*Contact us*/
+   .text-input {
+    width: 500px;
+}
+
+.btn {
+width: 520px;
+}
+
+#divAdress {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#adress {
+    margin: 100px 20px 0 0;
+}
+
+.social {
+    margin: 100px 20px 0 0;
+}
+
+#freepic {
+    display: flex;
+    justify-content: center;
+}
+}
+
+@media all and (max-width: 2048px) {
+    /* main page */
+    
+    h1 {
+        margin-left: 100px;
+    }
+}
+
+@media all and (max-width: 1920px) {
+    /* main page */
+    
+    .menu {
+        font-size: 60px;
+    }
+    
+    h1 {
+        margin: 400px 0 0 350px;
+        font-size: 100px;
+    }
+    
+    #spanMain {
+        font-size: 60px;
+        margin-left: 110px;
+    }
+
+/*About us*/
+    #headerAbout {
+        margin-top: 100px;
+    }
+    
+    #parAbout {
+        font-size: 30px;
+    }
+    
+    #spanAbout {
+        font-size: 30px;
+    }
+    
+    #parHours {
+        font-size: 30px;
+    }
+
+}
+
+@media all and (max-width: 1680px) {
+    /* main page */
+    
+    h1 {
+        margin-left: 300px;
+    }
+
+    #spanMain {
+        margin-left: 20px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    /* main page */
+    
+    .menu {
+        margin-top: 50px;
+        font-size: 50px;
+    }
+    
+    h1 {
+        margin: 300px 0 0 250px;
+        font-size: 80px;
+    }
+    
+    #spanMain {
+        font-size: 50px;
+        margin-left: 60px;
+    }
+
+}
+
+@media all and (max-width: 1280px) {
+    /* main page */
+    h1 {
+        margin: 300px 0 0 100px;
+    }
+    
+    #spanMain {
+        margin-left: 50px;
+    }
+
+}
+
+
+@media all and (max-width: 1134px) {
+/* main page */
+
+h1 {
+    margin: 250px 0 0 200px;
+    font-size: 60px;
+}
+
+#spanMain {
+    font-size: 40px;
+    margin-left: 60px;
+}
+}
+
+@media all and (max-width: 1024px) {
+    /* main page */
+    
+    .menu {
+        font-size: 40px;
+    }
+    
+    h1 {
+        margin: 200px 0 0 170px;
+        font-size: 60px;
+    }
+    
+    #spanMain {
+        font-size: 40px;
+        margin-left: 30px;
+    }
+
+     /*About us*/
+#headerAbout {
+    margin-top: 270px;
+}
+
+/*Contact us*/
+#divAdress {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#adress {
+    margin: 50px 5px 0 0;
+    font-size: 13px;
+}
+
+.social {
+    margin: 50px 5px 0 0;
+}
+
+.one {
+    margin-right: 50px;
+}
+
+#freepic {
+    display: flex;
+    justify-content: center;
+}
+}
+
+@media all and (max-width: 900px) {
+    .menu {
+        margin-top: -20px;
+        font-size: 25px;
+    }
+    
+    h1 {
+        margin: 80px 0 0 130px;
+        font-size: 30px;
+    }
+    
+    #spanMain {
+        font-size: 20px;
+        margin-left: 40px;
+    }
+
+    /*About us*/
+#headerAbout {
+    margin-top: 150px;
+}
+}
+
+@media all and (max-width: 640px) {
+    /* main page */
+    
+    .menu {
+        margin-top: -20px;
+        font-size: 25px;
+    }
+    
+    h1 {
+        margin: 80px 0 0 130px;
+        font-size: 30px;
+    }
+    
+    #spanMain {
+        font-size: 20px;
+        margin-left: 40px;
+    }
+
+    /*About us*/
+#headerAbout {
+    margin-top: 150px;
+}
+}
+
+@media all and (max-width: 500px) {
+/* main page */
+
+.menu {
+    font-size: 18px;
+}
+
+h1 {
+    margin: 50px 0 0 40px;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+}
+
+#spanMain {
+    margin-left: 0px;
+    font-size: 22px;
+}
+
+/*About us*/
+#headerAbout {
+    margin-top: 150px;
+}
+
+#parAbout {
+    font-size: 18px;
+}
+
+#divAbout {
+    width: 80%;
+}
+
+#parHours {
+    font-size: 15px;
+}
+
+/*Contact us*/
+.text-input {
+    width: 250px;
+}
+
+.btn {
+width: 270px;
+}
+
+#divAdress {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#adress {
+    margin: 50px 5px 0 0;
+    font-size: 13px;
+}
+
+.social {
+    margin: 50px 5px 0 0;
+}
+
+.one {
+    margin-right: 50px;
+}
+
+#freepic {
+    display: flex;
+    justify-content: center;
+}
+}
